@@ -1,0 +1,9 @@
+.text{
+  text-align:center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+<div style="background:url('{{url_for('static', filename='logo1.png')}}') no-repeat fixed center;">
